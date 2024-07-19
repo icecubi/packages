@@ -7,14 +7,14 @@
 
 include $(TOPDIR)/rules.mk
 
-GO_VERSION_MAJOR_MINOR:=1.21
+GO_VERSION_MAJOR_MINOR:=1.22
 GO_VERSION_PATCH:=5
 
 PKG_NAME:=golang
 PKG_VERSION:=$(GO_VERSION_MAJOR_MINOR)$(if $(GO_VERSION_PATCH),.$(GO_VERSION_PATCH))
 PKG_RELEASE:=1
 
-GO_SOURCE_URLS:=https://dl.google.com/go/ \
+GO_SOURCE_URLS:=https://https://go.dev/dl/ \
                 https://mirrors.ustc.edu.cn/golang/ \
                 https://mirrors.nju.edu.cn/golang/
 
